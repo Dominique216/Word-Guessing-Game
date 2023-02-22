@@ -1,8 +1,20 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # WhichWord 
 
 WhichWord is Wordle clone made with pure Javascript, HTML, and CSS. When you visit the WhichWord website, you are introduced to a game title with a Easy, Medium or Hard selection. Easy being a 5 letter word, Medium being a 6 letter word and Hard being a 7 letter word. Each box can hold one letter, and so you guess at the answer by typing in letters word and pressing 'Enter'. There aren't any clues up front, so any letter will do as an initial guess.
 
 <br>   
+
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Screenshots](#screenshots)
+- [Built Using](#built-using)
+- [Authors](#authors)
+- [Development](#development)
+- [Saved for Later](#saved-for-later)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
 ## Getting Started
 
@@ -104,3 +116,6 @@ Ian Leneham - https://www.youtube.com/channel/UCU5seEXTjpF4RRfQn-4242A
 Freecodecamp - https://www.freecodecamp.org/
 
 Alabama Richmond - https://www.instagram.com/phonixart_/
+
+## License
+This project uses an MIT license. For more information click the license badge at the top of the README.
