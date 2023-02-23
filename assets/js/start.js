@@ -1,8 +1,10 @@
+import key from './connection.js';
+
 // Random word API fetch ----------------------------------------------------
 function getRandomWord(count) {  const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '4b6d485f8fmsh50bf76457d041a0p1dc699jsna10e333f90d7',
+		'X-RapidAPI-Key': key,
 		'X-RapidAPI-Host': 'random-words5.p.rapidapi.com'
 	}
 };

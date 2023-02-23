@@ -1,3 +1,5 @@
+import key from './connection.js';
+
 var storage = JSON.parse(localStorage.getItem('wordInfo'))
 var storageWord= storage.word
 
@@ -12,7 +14,7 @@ function getApi() {
 	const options = {
 		method: 'GET',
 		headers: {
-			'X-RapidAPI-Key': '6b1367e603msh5a07f6c31f94f44p17225cjsn43948ef1453a',
+			'X-RapidAPI-Key': key,
 			'X-RapidAPI-Host': 'dictionary-by-api-ninjas.p.rapidapi.com'
 		}
 	};
@@ -56,7 +58,7 @@ function getApi2() {
 	const options = {
 		method: 'GET',
 		headers: {
-			'X-RapidAPI-Key': '6b1367e603msh5a07f6c31f94f44p17225cjsn43948ef1453a',
+			'X-RapidAPI-Key': key,
 			'X-RapidAPI-Host': 'genius-song-lyrics1.p.rapidapi.com'
 		}
 	};
