@@ -59,13 +59,6 @@ app.get('/def/:storageWord', async (req, res) => {
        const def = await fetch(requestUrl, options)
                 .then(res => res.json())
                 res.send(def)
-    //    .then((response) => {
-    //     if (response.ok) {
-    //       res.send(response.json());
-    //     } else {
-    //       throw new Error("NETWORK RESPONSE ERROR");
-    //     }
-    //   })
     } 
     catch(err) {
         console.log(err)
