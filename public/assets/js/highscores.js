@@ -1,4 +1,4 @@
-import key from './connection.js';
+
 
 var storage = JSON.parse(localStorage.getItem('wordInfo'))
 var storageWord= storage.word
@@ -8,18 +8,9 @@ var storageWord= storage.word
 var fetchButton = document.getElementById('fetch-button');
 
 function getApi() {
-	var requestUrl = `https://dictionary-by-api-ninjas.p.rapidapi.com/v1/dictionary?word=${storageWord}`;
-
-
-	const options = {
-		method: 'GET',
-		headers: {
-			'X-RapidAPI-Key': key,
-			'X-RapidAPI-Host': 'dictionary-by-api-ninjas.p.rapidapi.com'
-		}
-	};
-		
-	fetch(requestUrl, options)
+	fetch(`/def/${storageWord}`, {
+        method: 'GET',
+      })
 	.then((response) => {
 	  if (response.ok) {
 		return response.json();
@@ -50,21 +41,11 @@ function displayDefinition(data) {
 
 var fetchButton2 = document.getElementById('fetch-button2');
 
+
 function getApi2() {
-	var requestUrl = `https://genius-song-lyrics1.p.rapidapi.com/search/?q=${storageWord}&per_page=10&page=1`;
-
-
-
-	const options = {
-		method: 'GET',
-		headers: {
-			'X-RapidAPI-Key': key,
-			'X-RapidAPI-Host': 'genius-song-lyrics1.p.rapidapi.com'
-		}
-	};
-
-
-	fetch(requestUrl, options)
+	fetch(`/song/${storageWord}`, {
+        method: 'GET',
+      })
 	.then((response) => {
 	  if (response.ok) {
 		return response.json();
