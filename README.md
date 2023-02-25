@@ -18,7 +18,7 @@ WhichWord is Wordle clone made with pure Javascript, HTML, CSS, Node.js, and exp
 
 ## Getting Started
 
-Visit deployed website [here]()
+Visit deployed website [here](https://whichword.herokuapp.com/)
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
