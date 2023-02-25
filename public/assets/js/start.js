@@ -1,30 +1,4 @@
 
-// import key from './connection.js';
-
-// Random word API fetch ----------------------------------------------------
-// function getRandomWord(count) {  
-
-
-
-// //     const options = {
-// // 	method: 'GET',
-// // 	headers: {
-// // 		'X-RapidAPI-Key': key,
-// // 		'X-RapidAPI-Host': 'random-words5.p.rapidapi.com'
-// // 	}
-// // };
-// // var requestUrl = 'https://random-words5.p.rapidapi.com/getRandom?wordLength='+ count
-// // fetch(requestUrl, options)
-// 	// .then(response => response.text())
-// 	// .then(data => {
-//     //     console.log(data);
-//     //     setItemInStorage(data, count);
-//     // }
-//     //                 )
-//     // .catch(err => console.error(err));
-
-
-// }
 
 // Fetched random word in local storage -----------------------------------
 function setItemInStorage(data, count) {
