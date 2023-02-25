@@ -2,7 +2,7 @@
 
 # WhichWord 
 
-WhichWord is Wordle clone made with pure Javascript, HTML, and CSS. When you visit the WhichWord website, you are introduced to a game title with a Easy, Medium or Hard selection. Easy being a 5 letter word, Medium being a 6 letter word and Hard being a 7 letter word. Each box can hold one letter, and so you guess at the answer by typing in letters word and pressing 'Enter'. There aren't any clues up front, so any letter will do as an initial guess.
+WhichWord is Wordle clone made with pure Javascript, HTML, CSS, Node.js, and express.js. When you visit the WhichWord website, you are introduced to a game title with a Easy, Medium or Hard selection. Easy being a 5 letter word, Medium being a 6 letter word and Hard being a 7 letter word. Each box can hold one letter, and so you guess at the answer by typing in letters word and pressing 'Enter'. There aren't any clues up front, so any letter will do as an initial guess.
 
 <br>   
 
@@ -18,7 +18,7 @@ WhichWord is Wordle clone made with pure Javascript, HTML, and CSS. When you vis
 
 ## Getting Started
 
-Visit deployed website [here](https://dominique216.github.io/Word-Guessing-Game/)
+Visit deployed website [here]()
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -43,13 +43,13 @@ These instructions will get you a copy of the project up and running on your loc
 ## Screenshots
 
 ### Start Page
-![start page](./assets/whichword%20title.png)
+![start page](./public/assets/whichword%20title.png)
 
 ### Game Page
-![gameplay](./assets/whichword%20gameplay.png)
+![gameplay](./public/assets/whichword%20gameplay.png)
 
 ### End Screen Page
-![end page](./assets/whichword%20end%20page.png)
+![end page](./public/assets/whichword%20end%20page.png)
 
 <br>      
     
@@ -87,9 +87,9 @@ Coolers, Color Palette generator - https://coolors.co/
 
 We were assigned together to work on a project and with most ideas we brainstormed and shared ideas.
 
-![Dominiques sketch](./assets/Dom%201st%20sketch.jpg)
+![Dominiques sketch](./public/assets/Dom%201st%20sketch.jpg)
 
-![Bretts sketch](./assets/Bretts%201st%20sketch.jpg)
+![Bretts sketch](./public/assets/Bretts%201st%20sketch.jpg)
 
 <br>     
 
